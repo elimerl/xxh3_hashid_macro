@@ -1,0 +1,11 @@
+[package]
+name = "xxh3_hashid_macro"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+litrs = "0.4.1"
+xxh3 = "0.1.1"
